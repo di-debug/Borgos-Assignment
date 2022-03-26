@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:400,600&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1.5;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Body-section */
+
+.wrapper {
+    background-repeat: no-repeat;
+    background: url("/images/BannerImage.jpg");
+    background-size: cover;
+    background-position: center center;
+    max-height: 100%;
+    height: 780px;
+}
+
+.nav-area {
+    margin: -40px;
+    float: right;
+    margin-right: 20px;
+}
+
+.nav-area a {
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.nav:hover {
+    text-decoration: underline;
+    color: rgb(73, 52, 52);
+}
+
+.logo img {
+    margin-left: 50px;
+    margin-top: 30px;
+    padding: 10px 10px 10px;
+}
+
+.welcome {
+    font-size: xx-large;
+    color: blue;
+    margin-left: 50px;
+    position: absolute;
+    float: left;
+    bottom: 10%;
+}
+
+.logo-certification {
+    position: relative;
+    float: left;
+    bottom: 0%;
+    top: 450px;
+    margin-left: 50px;
+}
+
+
+/*End-Body-section*/
+
+
+/* About-section */
+
+#About {
+    margin: 60px;
+}
+
+.text {
+    margin: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.text-img {
+    margin: -50px 0 0 0;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    background-image: url("/images/Borgos_About.jpg");
+    background-size: 100% 100%;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.txt {
+    margin-top: -10px;
+}
+
+.container {
+    margin: 80px;
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+}
+
+.para-img img {
+    background-size: 100% 100%;
+    position: absolute;
+    display: flex;
+    width: 600px;
+    height: 506px;
+    float: right;
+    right: 0%;
+    margin-top: 0;
+    opacity: 0.4;
+}
+
+.bold {
+    font-size: 25px;
+}
+
+.para {
+    font-size: small;
+    margin-top: 100px;
+    margin-left: 19%;
+    justify-content: center;
+    text-align: left;
+    float: left;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid blue;
+}
+
+
+/* end-About section */
+
+
+/* digital mamrketig-section*/
+
+#Digital-Marketing {
+    text-align: center;
+    align-items: center;
+}
+
+.txt2 strong {
+    text-align: center;
+    color: blue;
+}
+
+.container-img {
+    margin-top: 0;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    background: url(/images/technology/1.jpg);
+    background-size: cover;
+}
+
+.container3 {
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-auto-rows: auto;
+}
+
+.flip-card-container {
+    text-align: center;
+    margin-right: 40px;
+    margin: 40px 0px 40px 40px;
+    width: 300px;
+    height: 326px;
+    border: 3px lighten #ccc;
+    perspective: 1000px;
+}
+
+.flip-card {
+    margin-right: 3px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+
+.flip-card-container:hover .flip-card {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: transparent;
+    color: white;
+}
+
+.flip-card-back {
+    background-color: blue;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.card-btn {
+    background-color: green;
+    margin-top: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 0;
+}
+
+.flip-card-back p {
+    margin: 40px 10px 10px 10px;
+}
+
+.card-readmore {
+    font-size: small;
+}
+
+
+/* end */
+
+
+/* resource section */
+
+#Resource {
+    margin-top: 60px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.h1 {
+    letter-spacing: 4px;
+}
+
+.h1 strong {
+    color: blue;
+    letter-spacing: 4px;
+}
+
+.card-container1 {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 25px;
+    border: 2px solid gray;
+    margin-left: 100px;
+    border-radius: 5px;
+    width: 20%;
+    background-color: white;
+}
+
+.card-container1:hover {
+    box-shadow: 2px 2px 10px black;
+}
+
+.image img {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 100%;
+}
+
+.tittle {
+    text-align: center;
+}
+
+.title p {
+    margin: 0 15px;
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+.des-btn {
+    margin-bottom: 10px;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.card-stats-btn {
+    border: 0;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 0px 30px;
+}
+
+.card-stats-btn:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+#Career {
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-position: center center;
+    background-image: url("/images/Borgos_Ad\(CTA\).jpg");
+}
+
+.Career h4 {
+    padding-top: 10%;
+    color: #E1D9D1;
+}
+
+.Career h1 {
+    padding: 4px;
+    color: white;
+    letter-spacing: 5px;
+    font-size: xx-large;
+}
+
+.career-btn {
+    margin-bottom: 80px;
+    margin-top: 40px;
+    background-color: blue;
+    color: white;
+    padding: 5px 30px;
+    font-size: large;
+    border: 0;
+}
+
+#Contact {
+    color: white;
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url("/images/2.jpg");
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    margin-top: 400px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding: 70 0px;
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.footer-col h4,
+a {
+    color: white;
+}
+
+.footer-col {
+    margin-right: 20px;
+    margin-left: 40px;
+    position: relative;
+    width: 15%;
+    padding: 0 15px 0;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-logo {
+    /* border-bottom: 2px solid white; */
+    margin-top: 40px;
+    margin-left: 44%;
+}
+
+.social-links img {
+    margin-top: 263px;
+}
+
+.copy {
+    margin-bottom: 10px;
+    float: right;
+}
